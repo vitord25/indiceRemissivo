@@ -1,0 +1,9 @@
+No desenvolvimento de software, o tratamento de exceções desempenha um papel indispensável na construção de sistemas
+resilientes. Em um ambiente ideal, todas as operações seriam executadas sem falhas, mas na prática ocorrem erros de
+rede, inconsistências de entrada, falhas de hardware e condições inesperadas que podem comprometer o funcionamento de
+um programa. Técnicas de captura, propagação e registro de exceções permitem que o desenvolvedor mantenha o controle
+sobre a execução lógica mesmo diante de situações adversas. Além disso, blocos estruturados de tratamento, como ‘try’,
+‘catch’ e ‘finally’, possibilitam que recursos críticos sejam liberados adequadamente, evitando vazamentos e
+comportamentos indesejados. No entanto, o uso inadequado dessas práticas pode mascarar falhas graves, dificultar o
+diagnóstico de problemas e conduzir a sistemas menos confiáveis. A arte do tratamento de exceções reside em equilibrar
+robustez, clareza de código e responsabilidade na recuperação de erros.
