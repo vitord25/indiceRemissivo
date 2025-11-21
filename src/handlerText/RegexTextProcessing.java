@@ -44,7 +44,6 @@ public class RegexTextProcessing {
         // regex to remove accents in NFD decompose
         first = Normalizer.normalize(first, Normalizer.Form.NFD)
                 .replaceAll("\\p{M}", "");
-        System.out.println(first);
 
         String rest = word.substring(1);
 
