@@ -21,16 +21,22 @@ public class HashTable {
     public void insert(String word, int line) {
         int index = hashFunction(word);
 
-        Word w = new Word(word);
-        w.addOccurrence(line);
+        Word existentWord = this.search(word);
+        if(existentWord == null){
+            Word w = new Word(word);
+            w.addOccurrence(line);
 
-        table[index].insert(w); //BST
+            table[index].insert(w); //BST
+        }else{
+            existentWord.addOccurrence(line);
+        }
+
     }
 
-//    public Word search(String word) {
-//        int index = hashFunction(word);
-//        return table[index].busca(word);
-//    }
+    public Word search(String word) {
+        int index = hashFunction(word);
+        return table[index].busca(word);
+    }
 
     public void remove(String word) {
         int index = hashFunction(word);
