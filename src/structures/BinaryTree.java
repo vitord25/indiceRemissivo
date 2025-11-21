@@ -180,14 +180,18 @@ public class BinaryTree {
         return node;
     }
 
-    public boolean busca(String texto) {
-        return buscaRec(texto, this.root);
+    public Word busca(String texto) {
+        Node node = buscaRec(texto, this.root);
+
+        if(node == null) return null;
+
+        return node.word;
     }
 
-    private boolean buscaRec(String texto, Node node) {
+    private Node buscaRec(String texto, Node node) {
 
         if (node == null)
-            return false;
+            return null;
 
         int cmp = texto.compareTo(node.word.getWord());
 
@@ -198,7 +202,7 @@ public class BinaryTree {
             return buscaRec(texto, node.right);
 
         else
-            return true;
+            return node;
     }
 
     private int altura(Node node) {
