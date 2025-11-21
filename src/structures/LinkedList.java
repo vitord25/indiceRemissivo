@@ -117,12 +117,15 @@ public class LinkedList<T> {
         }
     }
 
-    public void printList() {
+    public String toString() {
+        StringBuilder result = new StringBuilder();
         Node now = first;
         while (now != null) {
-            System.out.print(now.element + " ");
+            result.append(now.element);
+            result.append(" ");
             now = now.next;
         }
-        System.out.println();
+
+        return result.toString();
     }
 }
