@@ -54,8 +54,21 @@ public class RegexTextProcessing {
         if (w.endsWith("ões")) return w.replace("ões", "ão");
         if (w.endsWith("ães")) return w.replace("ães", "ão");
         if (w.endsWith("ãos")) return w.replace("ãos", "ão");
-        if (w.endsWith("ais")) return w.substring(0, w.length() - 1);
-        if (w.endsWith("éis")) return w.substring(0, w.length() - 2) + "el";
+        if (w.endsWith("ais") && w.length() > 3) return w.replace("ais", "al");
+        if (w.endsWith("éis") && w.length() > 3 ) return w.replace("éis", "el");
+        if (w.endsWith("eis") && w.length() > 3) {
+            String unSufix = w.replace("eis", "");
+            if(unSufix.length() < 3) return w.substring(0, w.length() - 1);
+            if(unSufix.length() > 3) return w.replace("eis", "el");
+        }
+        if(w.endsWith("ares") || w.endsWith("eres") || w.endsWith("zes") || w.endsWith("ses")) return w.substring(0, w.length() - 2);
+
+        if(w.endsWith("es") && w.length() > 3){
+            String base = w.substring(0, w.length() - 2);
+            if (base.matches(".*[aeiou]")) return w;
+            if(!base.matches(".*[rlz]")) return w.substring(0, w.length() - 1);
+            return base;
+        }
         if (w.endsWith("is") && w.length() > 3) return w.substring(0, w.length() - 2);
         if (w.endsWith("s") && w.length() > 3) return w.substring(0, w.length() - 1);
         return w;
