@@ -1,0 +1,4 @@
+A normalização do índice remissivo trata apenas equivalências simples de plural e variações ortográficas
+(como acentuação e pontuação). Plurais irregulares como barris → barril não são agrupados, pois
+exigiriam lematização completa ou análise morfológica, o que foge do escopo da disciplina de Estrutura
+de Dados e poderia afetar outras palavras de forma incorreta. Assim, priorizamos consistência, legibilidade do código e alinhamento com os requisitos acadêmicos.
