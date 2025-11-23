@@ -4,11 +4,13 @@ fênix
 tórax
 lúpus
 atlas
+simples
 pires
 vírus
 cárcere
 lênin
 férias
+pois
 análise
 parêntesis
 cais
@@ -29,3 +31,4 @@ menos
 dois
 campus
 status
+apenas
