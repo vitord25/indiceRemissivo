@@ -7,8 +7,7 @@ import structures.Word;
 import java.io.IOException;
 import java.util.Arrays;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+
 public class Main {
 
     public static HashTable generateRemissiveIndex(String[] text) throws IOException {
@@ -16,7 +15,7 @@ public class Main {
         for (int i = 0; i < text.length; i++) {
             String[] wordsText = RegexTextProcessing.separtorWord(text[i], "src/data/restric_words.txt");
             for (int j = 0; j < wordsText.length; j++) {
-                table.insert(wordsText[j], i);
+                table.insert(wordsText[j], i + 1);
             }
 
         }
