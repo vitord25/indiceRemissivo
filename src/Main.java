@@ -1,6 +1,7 @@
 import handlerText.ReaderText;
 import handlerText.normalizedWords.RegexTextProcessing;
 import handlerText.normalizedWords.NomalizedWord;
+import handlerText.remissiveIndex.Remissive;
 import structures.HashTable;
 import structures.Word;
 
@@ -9,29 +10,6 @@ import java.util.Arrays;
 
 
 public class Main {
-
-    public static HashTable generateRemissiveIndex(String[] text) throws IOException {
-        HashTable table = new HashTable();
-        for (int i = 0; i < text.length; i++) {
-            String[] wordsText = RegexTextProcessing.separtorWord(text[i], "src/data/restric_words.txt");
-            for (int j = 0; j < wordsText.length; j++) {
-                table.insert(wordsText[j], i + 1);
-            }
-
-        }
-
-        return table;
-    }
-
-    public static void searchInRemissiveIndex(String[] words, HashTable table){
-        for (String w : words){
-            Word word = table.search(w);
-            if(word != null){
-                System.out.print(word + " " + word.getOccurrences());
-                System.out.println();
-            }
-        }
-    }
 
     public static void printToWordSeparator(String[] text) throws IOException {
 
@@ -58,13 +36,13 @@ public class Main {
 //
 //        printToWordSeparator(text4);
 
-        HashTable table = generateRemissiveIndex(text4);
+        HashTable table = Remissive.generate(text4);
 
-        StringBuilder s = table.inOrder();
+        String result = table.inOrder();
 
-        System.out.println(s.toString().replaceAll("(?m)^\\s*$\\n?", ""));
+        System.out.println(result);
 
         String[] words = new String[]{"normalização", "acentuação", "de"};
-        searchInRemissiveIndex(words, table);
+        Remissive.printToWords(words, table);
     }
 }
