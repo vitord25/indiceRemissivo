@@ -46,9 +46,20 @@ public class HashTable {
     // print em ordem alfabética
     public void print() {
         for (int i = 0; i < size; i++) {
-            System.out.println("\n--- Words starting with '" + (char)('A' + i) + "' ---");
+//            System.out.println("\n--- Words starting with '" + (char)('A' + i) + "' ---");
             table[i].printEmOrdem();
+
         }
+    }
+
+    public StringBuilder inOrder(){
+        StringBuilder builder = new StringBuilder();
+        for (int i = 0; i < size; i++) {
+//            System.out.println("\n--- Words starting with '" + (char)('A' + i) + "' ---");
+            builder.append(table[i].stringInOrder());
+        }
+
+        return builder;
     }
 }
 

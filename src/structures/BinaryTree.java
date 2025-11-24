@@ -69,6 +69,23 @@ public class BinaryTree {
         System.out.println();
     }
 
+    public StringBuilder stringInOrder(){
+        StringBuilder s = new StringBuilder();
+        this.inOrder(this.root, s);
+        s.append("\n");
+        return s;
+    }
+
+    public void inOrder(Node node, StringBuilder s){
+        if(node ==null)
+            return;
+
+        this.inOrder(node.left, s);
+        s.append(node.word.getWord());
+        s.append(" ");
+        this.inOrder(node.right, s);
+    }
+
     public void preOrdem(Node node) {
 
         if (node == null)
