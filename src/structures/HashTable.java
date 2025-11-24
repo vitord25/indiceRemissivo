@@ -52,14 +52,14 @@ public class HashTable {
         }
     }
 
-    public StringBuilder inOrder(){
+    public String inOrder(){
         StringBuilder builder = new StringBuilder();
         for (int i = 0; i < size; i++) {
 //            System.out.println("\n--- Words starting with '" + (char)('A' + i) + "' ---");
             builder.append(table[i].stringInOrder());
         }
 
-        return builder;
+        return builder.toString().replaceAll("(?m)^\\s*$\\n?", "");
     }
 }
 
