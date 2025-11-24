@@ -14,6 +14,7 @@ public class Word {
     }
 
     public void addOccurrence(int line) {
+        if(occurrences.search(line)) return;
         occurrences.insertFinal(line);
     }
 

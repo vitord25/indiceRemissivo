@@ -117,6 +117,18 @@ public class LinkedList<T> {
         }
     }
 
+    public boolean search(int value){
+        Node now = first;
+        while (now != null){
+            if(now.element == value){
+                return true;
+            }
+            now = now.next;
+        }
+
+        return false;
+    }
+
     public String toString() {
         StringBuilder result = new StringBuilder();
         Node now = first;
