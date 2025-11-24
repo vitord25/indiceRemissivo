@@ -41,11 +41,13 @@ public class NomalizedWord {
             String unSufix = w.replace("is", "");
 
             if(unSufix.length() < 3) return w.substring(0, w.length() - 1);
+            if(unSufix.length() > 3 && unSufix.matches(".*[aeiou]")) return w.substring(0, w.length() - 2) + "l";
+            if (w.endsWith("éis")) return w.replace("éis", "el");
             if(unSufix.length() > 3)  return w.substring(0, w.length() - 1) + "l";
+
         }
 
         if (w.endsWith("ais") && w.length() > 3) return w.replace("ais", "al");
-        if (w.endsWith("éis") && w.length() > 3 ) return w.replace("éis", "el");
 
 
         if (w.endsWith("eis") && w.length() > 3) {
@@ -67,5 +69,9 @@ public class NomalizedWord {
         if (w.endsWith("s") && w.length() > 3) return w.substring(0, w.length() - 1);
 
         return w;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(singular("papéis"));
     }
 }
