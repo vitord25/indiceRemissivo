@@ -6,10 +6,13 @@ import structures.Word;
 
 import java.io.IOException;
 
+
+
 public class Remissive {
 
+    public static HashTable table = new HashTable();
+
     public static HashTable generate(String[] text) throws IOException {
-        HashTable table = new HashTable();
         for (int i = 0; i < text.length; i++) {
             String[] wordsText = RegexTextProcessing.separtorWord(text[i], "src/data/restric_words.txt");
             for (int j = 0; j < wordsText.length; j++) {
@@ -21,7 +24,7 @@ public class Remissive {
         return table;
     }
 
-    public static void printToWords(String[] words, HashTable table){
+    public static void printToWords(String[] words){
         for (String w : words){
             Word word = table.search(w);
             if(word != null){

@@ -30,11 +30,12 @@ public class Main {
         String[] text3 = ReaderText.read("src/data/texts/texto3");
         String[] text4 = ReaderText.read("src/data/texts/texto4");
 
+//        System.out.println(Arrays.toString(text4));
 //        printToWordSeparator(text1);
 //        printToWordSeparator(text2);
 //        printToWordSeparator(text3);
 //
-//        printToWordSeparator(text4);
+        printToWordSeparator(text4);
 
         HashTable table = Remissive.generate(text4);
 
@@ -43,6 +44,6 @@ public class Main {
         System.out.println(result);
 
         String[] words = new String[]{"normalização", "acentuação", "de"};
-        Remissive.printToWords(words, table);
+        Remissive.printToWords(words);
     }
 }
