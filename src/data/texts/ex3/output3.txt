@@ -1,0 +1,27 @@
+bloco 5 
+captura 4 
+comportamento 7 
+condição 3 
+controle 4 
+desenvolvedor 4 
+desenvolvimento 3 7 1 
+diagnóstico 8 
+erro 2 9 
+exceção 1 4 8 
+execução 5 
+falha 2 3 7 
+hardware 3 
+operação 2 
+problema 7 8 
+propagação 4 
+prática 3 2 7 
+recuperação 9 
+recurso 6 
+rede 3 
+registro 4 
+resiliente 2 
+robustez 9 
+sistema 1 7 8 
+software 1 7 
+tratamento 1 5 8 
+vazamento 6 

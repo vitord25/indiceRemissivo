@@ -1,0 +1,59 @@
+ajuste 4 
+ambiente 2 8 
+arquitetura 5 
+automação 10 
+carga 4 
+computacional 2 4 1 
+computação 1 
+conformidade 7 
+consumido 5 
+container 9 
+controle 4 8 
+custo 2 7 
+dado 4 3 6 7 
+demanda 3 
+deploy 10 
+desempenho 8 
+dinâmica 2 
+disponibilidade 5 
+distribuída 5 
+ecossistema 10 
+empresa 1 
+escalabilidade 1 
+estratégia 2 8 
+falha 2 3 7 5 
+flexibilidade 9 
+flexível 4 
+flutuação 4 
+físico 3 
+geográfica 6 
+governança 7 
+hardware 3 
+híbrida 8 
+infraestrutura 1 2 
+kubernete 9 
+latência 7 
+local 8 
+migração 6 
+modelo 3 7 4 
+multicloud 10 
+nuvem 1 6 
+observabilidade 10 
+oculto 7 
+operacional 8 2 
+oportunidade 9 
+organização 1 7 
+orquestração 9 
+otimização 10 
+planejamento 6 
+precificação 4 
+provedor 2 
+recurso 6 1 5 
+rede 3 7 
+região 6 
+regulatória 7 
+remoto 8 
+serviço 3 
+tolerância 5 
+virtualizada 3 
+workload 10 

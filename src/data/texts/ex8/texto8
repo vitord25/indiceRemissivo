@@ -1,0 +1,11 @@
+Os bancos de dados relacionais fundamentam operações críticas em inúmeras aplicações empresariais, garantindo
+consistência transacional através do modelo ACID. SQL permanece como linguagem dominante para consultas declarativas,
+permitindo abstrações poderosas sobre estruturas tabulares normalizadas. Índices aceleram buscas complexas, enquanto
+otimizadores de consultas analisam planos de execução para minimizar custos computacionais. Entretanto, limitações de
+escalabilidade vertical impulsionaram surgimento de alternativas NoSQL, que sacrificam consistência estrita em favor de
+disponibilidade e particionamento horizontal. Sistemas distribuídos como Cassandra e MongoDB adotam modelos eventualmente
+consistentes, adequados para workloads massivos com requisitos relaxados de integridade. Tecnologias híbridas emergem,
+combinando garantias ACID com capacidades de sharding e replicação assíncrona. Escolhas arquiteturais dependem de
+trade-offs entre consistência, latência, throughput e complexidade operacional. Ferramentas modernas de observabilidade,
+backups incrementais, estratégias de disaster recovery e testes de resiliência constituem práticas essenciais para
+administração responsável de sistemas persistentes que armazenam ativos informacionais valiosos das organizações.

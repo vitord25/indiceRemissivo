@@ -1,0 +1,56 @@
+adverso 10 
+ameaça 2 10 
+armazenamento 4 
+atacante 6 
+ataque 9 
+auditoria 6 5 
+autenticação 5 
+cenário 10 
+cibernética 2 
+comprometida 5 
+conformidade 7 
+conscientização 3 
+credencial 5 
+criptografia 3 
+cultura 9 
+dado 4 3 
+defensiva 2 
+descuido 8 
+detecção 4 
+digital 1 
+elemento 7 
+engenharia 1 7 8 
+estratégia 2 
+firewall 4 
+frágil 8 
+humana 8 1 3 
+incidente 7 
+informação 3 1 
+infraestrutura 1 
+institucional 10 
+intrusão 4 
+multicamada 2 
+multifator 5 
+operacional 8 
+organização 1 
+phishing 8 
+política 6 
+processo 3 8 
+protocolo 6 
+regulamentação 7 
+resiliência 10 
+responsabilidade 6 7 9 
+resposta 7 
+risco 5 
+segurança 1 9 
+sensível 3 
+simulação 9 
+social 9 8 
+sofisticada 10 
+suspeito 4 
+tecnologia 6 3 
+transmissão 4 
+treinamento 9 
+tráfego 4 
+vetor 8 
+vulnerabilidade 6 

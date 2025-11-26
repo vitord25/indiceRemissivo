@@ -1,0 +1,14 @@
+colaboração 4 
+documentação 5 
+engenharia 1 7 
+equipe 4 
+ferramenta 4 
+metodologia 2 
+modularidade 6 
+organizacional 9 
+problema 7 
+qualidade 3 
+sistema 1 7 
+software 1 7 
+testabilidade 6 
+usuário 8 

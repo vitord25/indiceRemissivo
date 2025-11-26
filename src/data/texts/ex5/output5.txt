@@ -1,0 +1,40 @@
+algoritmo 2 
+algorítmico 5 
+aprendizado 2 
+artificial 1 9 
+auditoria 6 
+compromisso 9 
+computacional 2 4 
+computador 2 
+conta 8 
+convolucional 3 
+dado 4 3 
+decisão 6 
+discriminação 5 
+diálogo 9 
+etica 6 5 
+inovação 9 
+inteligência 1 8 
+mecanismo 8 
+modelo 3 7 
+neural 3 
+opaco 6 
+padrão 2 
+prestação 8 
+privacidade 7 
+processamento 1 7 4 
+profundo 2 
+questão 5 
+rede 3 
+regulamentação 7 
+sistema 1 7 8 6 
+social 9 
+sofisticado 7 
+tecnológico 6 
+textual 4 
+transformador 4 
+transparência 6 8 
+técnica 2 4 9 
+vies 6 5 
+vigilância 7 
+visão 4 

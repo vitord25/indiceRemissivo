@@ -1,0 +1,68 @@
+abstração 3 
+administração 11 
+alternativa 5 
+aplicação 1 
+arquitetural 8 
+assíncrona 8 
+ativo 11 
+backup 10 
+banco 1 
+busca 3 
+capacidade 3 8 
+complexa 2 3 
+complexidade 1 9 
+computacional 2 4 1 
+consistente 7 
+consistência 4 2 5 9 
+consulta 2 4 
+crítica 6 1 
+custo 2 7 4 
+dado 4 3 6 7 1 
+declarativa 2 
+disaster 10 
+disponibilidade 5 6 
+distribuído 6 
+empresarial 1 
+escalabilidade 1 5 
+estratégia 2 8 10 
+estrutura 3 
+eventualmente 6 
+execução 5 4 
+ferramenta 4 7 9 
+garantia 8 
+horizontal 6 
+híbrida 8 7 
+incremental 10 
+indice 1 3 
+informacional 11 
+integridade 7 
+latência 7 9 
+limitação 7 4 
+linguagem 1 7 2 
+massivo 3 7 
+modelo 3 7 4 2 6 
+normalizada 3 
+observabilidade 10 9 
+operacional 8 2 9 
+operação 2 1 
+organização 1 7 11 
+otimizador 4 
+particionamento 6 
+persistente 11 
+plano 4 
+prática 3 2 7 10 
+recovery 10 
+relacional 1 
+replicação 8 
+requisito 4 7 
+resiliência 10 
+sharding 8 
+sistema 1 7 8 6 4 11 
+tabular 3 
+tecnologia 6 3 7 
+teste 10 
+throughput 9 
+transacional 2 
+valioso 11 
+vertical 5 
+workload 10 7 
