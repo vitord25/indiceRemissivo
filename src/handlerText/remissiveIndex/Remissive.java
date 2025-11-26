@@ -1,6 +1,7 @@
 package handlerText.remissiveIndex;
 
 import handlerText.normalizedWords.RegexTextProcessing;
+import structures.BinaryTree;
 import structures.HashTable;
 import structures.Word;
 
@@ -24,13 +25,15 @@ public class Remissive {
         return table;
     }
 
-    public static void printToWords(String[] words){
+    public static String toWordsAndLines(String[] words){
+        BinaryTree searchTree = new BinaryTree();
         for (String w : words){
             Word word = table.search(w);
             if(word != null){
-                System.out.print(word + " " + word.getOccurrences());
-                System.out.println();
+                searchTree.insert(word);
             }
         }
+
+        return searchTree.wordValueOccurencesInOrder().toString();
     }
 }

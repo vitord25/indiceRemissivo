@@ -1,0 +1,21 @@
+acadêmico 4 
+acentuação 2 
+barril 2 
+consistência 4 
+código 2 9 4 
+dado 4 
+equivalência 1 
+estrutura 3 
+indice 1 
+irregular 2 
+legibilidade 4 
+lematização 3 
+morfológica 3 
+normalização 1 
+ortográfica 1 
+palavra 4 
+plural 1 2 
+pontuação 2 
+remissivo 1 
+requisito 4 
+variação 1 

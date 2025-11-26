@@ -1,0 +1,20 @@
+ambiguidade 4 
+aprendizado 2 
+contexto 4 5 
+educação 8 
+estatística 2 
+exemplo 3 
+ironia 5 
+linguagem 1 7 
+linguística 2 
+modelo 3 
+máquina 1 2 
+natural 1 7 
+polissemia 5 
+processamento 1 7 
+sarcasmo 5 
+semântica 4 
+sentimento 8 
+tecnologia 6 
+tradução 8 
+vies 6 

@@ -21,7 +21,7 @@ public class NomalizedWord {
         String first = word.substring(0, 1);
 
         // NFD to decompose accent in to the first letter
-        // regex to remove accents in NFD decompose
+        // regex to remove accents in NFD
         first = Normalizer.normalize(first, Normalizer.Form.NFD)
                 .replaceAll("\\p{M}", "");
 

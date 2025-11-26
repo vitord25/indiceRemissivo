@@ -69,21 +69,40 @@ public class BinaryTree {
         System.out.println();
     }
 
-    public StringBuilder stringInOrder(){
+    public StringBuilder wordValueInOrder(){
         StringBuilder s = new StringBuilder();
-        this.inOrder(this.root, s);
+        this.inOrderStringBuilder(this.root, s);
         s.append("\n");
         return s;
     }
 
-    public void inOrder(Node node, StringBuilder s){
+    public StringBuilder wordValueOccurencesInOrder(){
+        StringBuilder s = new StringBuilder();
+        this.inOrderValueOccurences(this.root, s);
+        return s;
+    }
+
+    public void inOrderValueOccurences(Node node, StringBuilder s){
+        if(node == null ){
+            return;
+        }
+
+        this.inOrderValueOccurences(node.left, s);
+        s.append(node.word.getWord());
+        s.append(" ");
+        s.append(node.word.getOccurrences().toString());
+        s.append("\n");
+        this.inOrderValueOccurences(node.right, s);
+    }
+
+    public void inOrderStringBuilder(Node node, StringBuilder s){
         if(node ==null)
             return;
 
-        this.inOrder(node.left, s);
+        this.inOrderStringBuilder(node.left, s);
         s.append(node.word.getWord());
         s.append(" ");
-        this.inOrder(node.right, s);
+        this.inOrderStringBuilder(node.right, s);
     }
 
     public void preOrdem(Node node) {
